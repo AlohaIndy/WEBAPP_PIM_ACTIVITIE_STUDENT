@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            TravelRecordApp
+        </title>
+        <!-- FONT web -->
+        <link href="" rel="icon"/>
+        <!-- ICON web -->
+        <link href="/font/kanit.css" rel="stylesheet"/>
+        <!-- CSS bootstrap -->
+        <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+        <!-- CSS MetisMenu -->
+        <link href="/bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet"/>
+        <!-- CSS Morris Charts -->
+        <link href="/bower_components/morrisjs/morris.css" rel="stylesheet"/>
+        <!-- CSS font-awesome -->
+        <link href="/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <!-- CSS Custom -->
+        <link href="index.css" rel="stylesheet"/>
+    </head>
+</html>
+<body class="fontKanit">
+    <div id="wrapper">
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+                    <span class="sr-only">
+                        Toggle navigation
+                    </span>
+                    <span class="icon-bar">
+                    </span>
+                    <span class="icon-bar">
+                    </span>
+                    <span class="icon-bar">
+                    </span>
+                </button>
+                <a class="navbar-brand" href="/pages/admin/Panyapiwat/home">
+                    Activity Student PIM
+                </a>
+            </div>
+            <!-- /.navbar-header -->
+            <ul class="nav navbar-top-links navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-envelope fa-fw">
+                        </i>
+                        <i class="fa fa-caret-down">
+                        </i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-messages">
+                        <li>
+                            <a href="/pages/message">
+                                <div>
+                                    <strong>
+                                        ผู้ดูแลระบบ
+                                    </strong>
+                                    <span class="pull-right text-muted">
+                                        <em>
+                                            เมื่อวาน
+                                        </em>
+                                    </span>
+                                </div>
+                                <div>
+                                    โปรดติดต่อสำนัก IT ด้วย
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider">
+                        </li>
+                        <li>
+                            <a href="/pages/message">
+                                <div>
+                                    <strong>
+                                        ผู้ดูแลระบบ
+                                    </strong>
+                                    <span class="pull-right text-muted">
+                                        <em>
+                                            เมื่อวาน
+                                        </em>
+                                    </span>
+                                </div>
+                                <div>
+                                    เมื่อวานตรวจสอบข้อมูลของท่าแล้ว รบกวนติดต่อหมายเลข 0982166230 ด้วยค่ะ
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider">
+                        </li>
+                        <li>
+                            <a class="text-center" href="/pages/messages">
+                                <strong>
+                                    ดูข้อความทั้งหมด
+                                </strong>
+                                <i class="fa fa-angle-right">
+                                </i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-messages -->
+                </li>
+                <!-- /.dropdown -->
+                <!-- /.dropdown -->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-bell fa-fw">
+                        </i>
+                        <i class="fa fa-caret-down">
+                        </i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-alerts">
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-calendar fa-fw">
+                                    </i>
+                                    มีนัดตารางการนัดหมายที่จะถึง
+                                    <span class="pull-right text-muted small">
+                                        อีก 3 วัน
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider">
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-exclamation-circle fa-fw">
+                                    </i>
+                                    ใกล้หมดเวลาเก็บ ชม.
+                                    <span class="pull-right text-muted small">
+                                        อีก 7 วัน
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-alerts -->
+                </li>
+                <!-- /.dropdown -->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-user fa-fw">
+                        </i>
+                        แอดมิน ปัญญาภิวัฒน์
+                        <i class="fa fa-caret-down">
+                        </i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+                        <li>
+                            <a href="/pages/profile">
+                                <i class="fa fa-address-card fa-fw">
+                                </i>
+                                ข้อมูลส่วนตัว
+                            </a>
+                        </li>
+                        <li class="divider">
+                        </li>
+                        <li>
+                            <a href="/index.html">
+                                <i class="fa fa-sign-out fa-fw">
+                                </i>
+                                ออกจากระบบ
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-user -->
+                </li>
+                <!-- /.dropdown -->
+            </ul>
+            <!-- /.navbar-top-links -->
+            <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul class="nav" id="side-menu">
+                        <li>
+                            <a href="/pages/admin/Panyapiwat/home">
+                                <i class="fa fa-th-large fa-fw">
+                                </i>
+                                หน้าหลัก
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-bicycle fa-fw">
+                                </i>
+                                กิจกรรม
+                                <span class="fa arrow">
+                                </span>
+                            </a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="/pages/admin/Panyapiwat/check/student">
+                                        เช็คกิจกรรมนักศึกษา
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="/pages/admin/Panyapiwat/infoactivity">
+                                        ประกาศรับสมัครกิจกรรม
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-newspaper-o fa-fw">
+                                </i>
+                                ข่าวสาร
+                                <span class="fa arrow">
+                                </span>
+                            </a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="/pages/admin/Panyapiwat/news">
+                                        ปัญญาภิวัฒน์
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+            <!-- /.navbar-static-side -->
+        </nav>
+        <!-- Content Page -->
+        <div id="page-wrapper">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">
+                        หน้าหลักแอดมิน PIM
+                    </h1>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+        </div>
+        <!-- /#page-wrapper -->
+    </div>
+    <!-- JAVASCRIPT jquery -->
+    <script src="/bower_components/jquery/dist/jquery.js">
+    </script>
+    <!-- JAVASCRIPT bootstrap -->
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.js">
+    </script>
+    <!-- JAVASCRIPT angular -->
+    <script src="/bower_components/angular/angular.js">
+    </script>
+    <!-- JAVASCRIPT angular-route -->
+    <script src="/bower_components/angular-route/angular-route.js">
+    </script>
+    <!-- JAVASCRIPT angular-loader -->
+    <script src="/bower_components/angular-loader/angular-loader.js">
+    </script>
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="/bower_components/metisMenu/dist/metisMenu.min.js">
+    </script>
+    <!-- Morris Charts JavaScript -->
+    <script src="/bower_components/raphael/raphael.min.js">
+    </script>
+    <script src="/bower_components/morrisjs/morris.min.js">
+    </script>
+    <!-- JAVASCRIPT Custom -->
+    <script src="index.js">
+    </script>
+</body>

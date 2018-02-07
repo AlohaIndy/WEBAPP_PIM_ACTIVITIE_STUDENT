@@ -1,0 +1,17 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "Project_PIM_Activitie",
+  "main": "Starter.js",
+  "scripts": {
+    "postinstall": "bower install",
+    "update-deps": "npm update",
+    "postupdate-deps": "bower update",
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 4000 -c-1 ./app"
+  },
+  "dependencies": {
+    "bower": "^1.8.2",
+    "http-server": "^0.10.0"
+  }
+}
