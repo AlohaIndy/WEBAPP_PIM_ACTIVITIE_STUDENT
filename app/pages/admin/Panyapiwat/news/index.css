@@ -433,16 +433,15 @@ table.dataTable thead .sorting:after {
   }
 }
 
-
-
-/*--------------------------- My CSS --------------------------*/
-table.table>thead>tr>th{
-  text-align: center;
+/* ------------------------ My Code ------------------------- */
+div.card-body-detail{
+  margin-top: 8px;
+  word-wrap:break-word;
+  width: 100%;
 }
-table.table>thead>tr>th {
-  vertical-align: middle !important;
+.haveMarginBottom{
+  margin-bottom: 50px;
 }
-.haveMarginTop{
-  margin-top: 20px;
+.haveMarginRight{
+  margin-right: 20px;
 }
-
